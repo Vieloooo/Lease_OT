@@ -63,7 +63,7 @@ Data properties:
 ## Rent 
 
 Data properties: 
-- Base rent: max 1 
+- Base rent: 1
     - the base rent for this tenancy
 - Rent payable: 1 
     - the sum of all fees: including "Base rent", "service fee", etc. 

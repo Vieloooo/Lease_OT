@@ -5,25 +5,33 @@
 A person who conveys the possession of a real estate under a lease.
 
 Data properties: 
-- First name: exactly 1
-- Last name: exactly 1
-- Address: exactly 1
-    - lessor's address for notice and communication 
+- First name:  1
+- Last name:  1
+    - if the lessor is a company, put the business to "Last name". 
+- Address:  1
+    - lessor's address for notice and communication. "Address" includes "street address", "city", "province" and "postal code". 
 - Email: some
+    - email addresses used to communication with lessor. 
+    - this section covers email addresses in "emergency", "notice", "daily communication, etc. 
 - Tele No: some
     - phone number which includes telephone number and cellular
+    - The "Tele No" includes phone number which used to contact lessor in any conditions.  
 - Fax: some 
+    - Fax number used to contact lessor
 
 ## Lessee
 
 A lessee is a person who takes temporary possession of a lessor's property (dwelling) through a lease 
 
 Data properties: 
-- First name: exactly 1
-- Last name: exactly 1
+- First name:  1
+- Last name:  1
 - Email: some
+    - email addresses used to communication with lessees. 
+    - this section covers email addresses in "emergency", "notice", "daily communication, etc. 
 - Tele No: some
     - phone number which includes telephone number and cellular
+    - The "Tele No" includes phone number which used to contact lessee in any conditions. 
 
 ## Rental Unit 
 Rental unit means a dwelling unit that is not owner-occupied and is rented or available to rent.
@@ -70,20 +78,20 @@ Data properties:
 - Payment method: some
     - this defines the method that lessor accepted: like "cash", "check", "wire-transfer", etc. 
 - Service covered: some
-    - this attributes contains all service covered in rent, like "heat", "water", "electricity", etc. 
+    - this contains all services and utilities covered in rent, like "heat", "water", "electricity", etc. 
 
 Object proerties: 
 - has other fee: some 
     - some services are not included in the rent, so in this section, the other services and its cost should be listed
 
 ## Other fee 
-Service that do not covered in rent. 
+Services or utilities that do not covered in rent. 
 
 Data properties: 
 - Fee name: 1 
     - the name of a service, like "parking", "internet", etc. 
 - Amount: 1
-    - the cost for this service
+    - the cost for this service or utility
 
 ## Deposit 
 Deposit refers to the money paid by a tenant to a landlord who have entered into a rental agreement. 

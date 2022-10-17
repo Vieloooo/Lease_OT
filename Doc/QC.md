@@ -59,7 +59,7 @@ Data properties:
 ## Rent 
 
 Data properties: 
-- Base rent: max 1 
+- Base rent:  1 
     - the base rent for this tenancy
 - Total cost of services: 1 
 - Total rent: 1 

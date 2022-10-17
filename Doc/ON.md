@@ -58,7 +58,7 @@ Data properties:
     - this defines on which day of the payment period the lessees pay the rent
 - Payment method: some
     - this defines the method that lessor accepted: like "cash", "check", "wire-transfer", etc. 
-- Base rent: max 1 
+- Base rent:  1 
     - the base rent for this tenancy
 - Total rent: 1 
     - the sum of all fees: including "Base rent", "service fee", etc. 
