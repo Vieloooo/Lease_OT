@@ -14,9 +14,11 @@ The "Lease_class_diagram" contains the ontologies and the mapping between nation
 - Dir "Std_lease_form" directory contains the standard forms provided by local governments.
     - As far as we know, Almost all provinces/territories' government provide standard forms for tenancy agreement except Alberta and Sasckatoon, while Nunavut territory and North teeritory use same standard forms. In this end, there are ten standard forms of residential leases
 - Dir "Doc" contains all description of each regional and national ontologies 
+    - In file "./Doc/0_Core.md", we specifed the definition for each section and the explain the meaning for each attribute. 
 
 ## Core ontology for rental agreement 
 To verify the content in lease forms, this ontology must cover all components that we need in verification while achieve the balance of Completeness and Conciseness. 
+
 ## Core ontology evaluation 
 
 ### Evaluate the completeness of the core ontology 
@@ -28,9 +30,15 @@ To measure the completeness of the core ontology, we mapped standard forms to th
 > (1: the blanks related to 1 address as 1 blank. For example, {"commmunity address" + "city" + "province" + "postcode"} is ONE blank. (2: the blanks related to 1 date as 1 blank.For example, {"day" + "month" + "year" } is ONE blank. 
 
 $$ 
-Completeness = (number of blanks can be mapped in a form) /(the total number of all blanks in a form)
+Completeness = (number\; of\; blanks\; can\; be\; mapped\; in\; form) /(total\; number\; of\; all\; blanks)
 $$
 
+#### Result 
+
+Based on our [annotation schema](./Annotated_data/Annotation_schema.md), we mapped these 10 standard forms to core ontology, the raw annotated forms are in floder "./Annotated_data/Tagged_forms_completeness". As a result: 
+![](Complete_result.png)
+
+The result listed above indicates that the core ontology can cover average 68.24% of all standard forms for tenancy over 11 provinces/territories in Canada. 
 
 
 
