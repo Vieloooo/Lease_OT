@@ -1,4 +1,4 @@
-# Lease ontology over Canada
+# Two-Level ontology for residential agreements over Canada
 
 The 2-level ontology for residential leases is class diagram in xml format, built with drawio. You can open this xml in (https:draw.io). 
 
@@ -29,9 +29,9 @@ To measure the completeness of the core ontology, we mapped standard forms to th
 > Blank definition: "blank" means the blank that need to be filled by user in a form of tenancy agreement. We consider:
 > (1: the blanks related to 1 address as 1 blank. For example, {"commmunity address" + "city" + "province" + "postcode"} is ONE blank. (2: the blanks related to 1 date as 1 blank.For example, {"day" + "month" + "year" } is ONE blank. 
 
-$$ 
-Completeness = (number\; of\; blanks\; can\; be\; mapped\; in\; form) /(total\; number\; of\; all\; blanks)
-$$
+
+> Completeness = (number of blanks can be mapped in form) /(total number of all blanks)
+
 
 #### Result 
 
